@@ -7,6 +7,7 @@ A library that works as a simple interface which makes it easier to work with co
 ## API reference
 
 - **StepperMotor**
+  - main class representing the motor
   - *private attributes*
     - *int* pin1
       - the first pin of the motor coils
