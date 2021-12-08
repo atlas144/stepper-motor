@@ -1,0 +1,19 @@
+###########################################
+# Syntax Coloring Map For Stepper Motor library
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+StepperMotor	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+getPin  KEYWORD2
+getStepDelay    KEYWORD2
+setStepDelay    KEYWORD2
+moveForward KEYWORD2
+moveBackwards   KEYWORD2
