@@ -76,4 +76,4 @@ Contributions are welcome!
 
 ## License
 
-The library is licensed under the [MIT license](https://github.com/atlas144/stepper-motor/blob/main/LICENSE).
+The library is licensed under the [MIT license](https://github.com/atlas144/stepper-motor-library/blob/main/LICENSE).
