@@ -64,7 +64,12 @@ void StepperMotor::step8(){
   delay(stepDelay);
 }
 
-StepperMotor::StepperMotor(uint8_t pin1, uint8_t pin2, uint8_t pin3, uint8_t pin4, uint8_t stepDelay) : pin1(pin1), pin2(pin2), pin3(pin3), pin4(pin4), stepDelay(stepDelay) {}
+StepperMotor::StepperMotor(uint8_t pin1, uint8_t pin2, uint8_t pin3, uint8_t pin4, uint8_t stepDelay) : pin1(pin1), pin2(pin2), pin3(pin3), pin4(pin4), stepDelay(stepDelay) {
+  pinMode(pin1, OUTPUT);
+  pinMode(pin2, OUTPUT);
+  pinMode(pin3, OUTPUT);
+  pinMode(pin4, OUTPUT);
+}
 
 uint8_t StepperMotor::getPin(uint8_t pinNumber) {
   switch (pinNumber) {
